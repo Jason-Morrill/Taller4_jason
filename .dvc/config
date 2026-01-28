@@ -1,0 +1,9 @@
+[core]
+    autostage = true
+    remote = aws-remote
+['remote "fuentelocal"']
+    url = /tmp/dvcstore
+['remote "aws-remote"']
+    url = s3://jason-dvcstore
+['remote "my-local-remote"']
+    url = /tmp/dvc-storage
